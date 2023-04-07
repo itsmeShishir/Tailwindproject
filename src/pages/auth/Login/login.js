@@ -17,13 +17,13 @@ function Login() {
           <form action className="mx-auto mt-8 mb-0 max-w-md space-y-4">
             <div>
               <label htmlFor="email" className="sr-only">
-                Email
+                Username
               </label>
               <div className="relative">
                 <input
                   type="email"
                   className="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-                  placeholder="Enter email"
+                  placeholder="Enter Username"
                 />
                 <span className="absolute inset-y-0 right-0 grid place-content-center px-4">
                   <svg
@@ -37,7 +37,7 @@ function Login() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                      d="M10 0C7.8 0 6 1.8 6 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zM3 16v3h14v-3c0-3.3-2.7-6-6-6H9c-3.3 0-6 2.7-6 6z"
                     />
                   </svg>
                 </span>
