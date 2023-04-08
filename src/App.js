@@ -16,6 +16,8 @@ import Appointment from "./Admin/Appointment/Appointment.js";
 import Schedule from "./Admin/Schedule/Schedule.js";
 import Setting from "./Admin/Setting/Setting.js";
 import Patinet from "./Admin/MyPatient/Patinet.js";
+import Dash from "./Users/pages/dash.js";
+import AppointmentUser from "./Users/pages/Appointment.js";
 function App() {
   return (
     <Router>
@@ -39,7 +41,8 @@ function App() {
         <Route path="schedule" element={<Schedule />} />
         <Route path="setting" element={<Setting />} />
         {/* Patinet Panel */}
-        
+        <Route path="dashboard" element={<Dash />} />
+        <Route path="userAppointment" element={<AppointmentUser />} />
         {/* Page 404 */}
         <Route path="*" element={<Error />} />
       </Routes>

@@ -15,7 +15,12 @@ function Blog() {
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                   <div className="flex items-center justify-between py-4 bg-white">
                     <h1 className="text-base font-semibold">Blog List</h1>
-                    <button class="btn btn-blue ">Add Blogs</button>
+                    <button
+                      type="button"
+                      className="relative inline-flex items-center px-3 py-3.5 border border-transparent bg-blue-600 text-xs text-white font-small"
+                    >
+                      Add new Blogs
+                    </button>
                   </div>
                   <table className="w-full text-sm text-left text-gray-500">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50">
