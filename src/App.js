@@ -15,6 +15,7 @@ import Blog from "./Admin/Blog/Blog.js";
 import Appointment from "./Admin/Appointment/Appointment.js";
 import Schedule from "./Admin/Schedule/Schedule.js";
 import Setting from "./Admin/Setting/Setting.js";
+import Patinet from "./Admin/MyPatient/payment.js";
 function App() {
   return (
     <Router>
@@ -30,12 +31,14 @@ function App() {
         <Route path="aboutus" element={<AboutUs />} />
         {/* Doctor Panel */}
         <Route path="overview" element={<OverView />} />
+        <Route path="patinet" element={<Patinet />} />
         <Route path="payment" element={<Payment />} />
         <Route path="message" element={<Message />} />
         <Route path="blog" element={<Blog />} />
         <Route path="appointment" element={<Appointment />} />
         <Route path="schedule" element={<Schedule />} />
         <Route path="setting" element={<Setting />} />
+        {/* Patinet Panel */}
         {/* Page 404 */}
         <Route path="*" element={<Error />} />
       </Routes>
