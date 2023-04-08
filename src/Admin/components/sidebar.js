@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div>
       <div className="relative hidden h-screen my-4 ml-4 shadow-lg lg:block w-80">
-        <div className="h-full bg-white rounded-2xl dark:bg-gray-700">
+        <div className="h-full bg-white rounded-2xl ">
           <div className="flex items-center justify-center pt-6">
             <svg
               width={35}
@@ -52,7 +52,7 @@ function Sidebar() {
           <nav className="mt-6">
             <div>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/overview"
               >
                 <span className="text-left">
@@ -69,7 +69,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">Overview</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/appointment"
               >
                 <span className="text-left">
@@ -87,7 +87,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">Appointment</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/patinet"
               >
                 <span className="text-left">
@@ -105,7 +105,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">My Patient</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/payment"
               >
                 <span className="text-left">
@@ -123,7 +123,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">Payment</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/schedule"
               >
                 <span className="text-left">
@@ -143,7 +143,7 @@ function Sidebar() {
                 </span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/blog"
               >
                 <span className="text-left">
@@ -161,7 +161,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">Blogs</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-blue-500"
                 to="/setting"
               >
                 <span className="text-left">

@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div>
       <div className="relative hidden h-screen my-4 ml-4 shadow-lg lg:block w-80">
-        <div className="h-full bg-white rounded-2xl dark:bg-gray-700">
+        <div className="h-full bg-white rounded-2xl ">
           <div className="flex items-center justify-center pt-6">
             <svg
               width={35}
@@ -52,7 +52,7 @@ function Sidebar() {
           <nav className="mt-6">
             <div>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200  hover:text-blue-500"
                 to="/dashboard"
               >
                 <span className="text-left">
@@ -69,7 +69,7 @@ function Sidebar() {
                 <span className="mx-4 text-sm font-normal">Dashboard</span>
               </NavLink>
               <NavLink
-                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 dark:text-gray-200 hover:text-blue-500"
+                className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200  hover:text-blue-500"
                 to="/userAppointment"
               >
                 <span className="text-left">

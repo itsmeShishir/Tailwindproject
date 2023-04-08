@@ -5,7 +5,7 @@ import Topbar from "../components/topbar";
 function Patinet() {
   return (
     <div>
-      <main className="relative h-screen overflow-hidden bg-gray-100 dark:bg-gray-800 rounded-2xl">
+      <main className="relative h-screen overflow-hidden bg-gray-100 rounded-2xl">
         <div className="flex items-start justify-between">
           <Sidebar />
           <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
@@ -68,7 +68,7 @@ function Patinet() {
                             type="button"
                             data-modal-target="editUserModal"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600  hover:underline"
                           >
                             More Details
                           </a>
@@ -104,7 +104,7 @@ function Patinet() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>
@@ -140,7 +140,7 @@ function Patinet() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600  hover:underline"
                           >
                             More Details
                           </a>
@@ -176,7 +176,7 @@ function Patinet() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600  hover:underline"
                           >
                             More Details
                           </a>
@@ -212,7 +212,7 @@ function Patinet() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600  hover:underline"
                           >
                             More Details
                           </a>

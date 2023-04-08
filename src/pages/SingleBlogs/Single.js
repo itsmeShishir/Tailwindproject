@@ -8,12 +8,12 @@ function Single() {
     <>
       <Header />
       <div>
-        <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
+        <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white ">
           <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
-            <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
               <header className="mb-4 lg:mb-6 not-format">
                 <address className="flex items-center mb-6 not-italic">
-                  <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center mr-3 text-sm text-gray-900">
                     <img
                       className="mr-4 w-16 h-16 rounded-full"
                       src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
@@ -23,14 +23,14 @@ function Single() {
                       <Link
                         href="#"
                         rel="author"
-                        className="text-xl font-bold text-gray-900 dark:text-white"
+                        className="text-xl font-bold text-gray-900"
                       >
                         Jese Leos
                       </Link>
-                      <p className="text-base font-light text-gray-500 dark:text-gray-400">
+                      <p className="text-base font-light text-gray-500">
                         Graphic Designer, educator &amp; CEO Flowbite
                       </p>
-                      <p className="text-base font-light text-gray-500 dark:text-gray-400">
+                      <p className="text-base font-light text-gray-500">
                         <time
                           pubdate
                           dateTime="2022-02-08"
@@ -42,7 +42,7 @@ function Single() {
                     </div>
                   </div>
                 </address>
-                <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+                <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                   Best practices for successful prototypes
                 </h1>
               </header>
@@ -105,10 +105,10 @@ function Single() {
         </main>
         <aside
           aria-label="Related articles"
-          className="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800"
+          className="py-8 lg:py-24 bg-gray-50"
         >
           <div className="px-4 mx-auto max-w-screen-xl">
-            <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">
+            <h2 className="mb-8 text-2xl font-bold text-gray-900">
               Related articles
             </h2>
             <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -120,16 +120,16 @@ function Single() {
                     alt="Image 1"
                   />
                 </a>
-                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900">
                   <a href="#">Our first office</a>
                 </h2>
-                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                <p className="mb-4 font-light text-gray-500">
                   Over the past year, Volosoft has undergone many changes! After
                   months of preparation.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
+                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 hover:no-underline"
                 >
                   Read in 2 minutes
                 </a>
@@ -142,16 +142,16 @@ function Single() {
                     alt="Image 2"
                   />
                 </a>
-                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900">
                   <a href="#">Enterprise design tips</a>
                 </h2>
-                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                <p className="mb-4 font-light text-gray-500">
                   Over the past year, Volosoft has undergone many changes! After
                   months of preparation.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
+                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 hover:no-underline"
                 >
                   Read in 12 minutes
                 </a>
@@ -164,16 +164,16 @@ function Single() {
                     alt="Image 3"
                   />
                 </a>
-                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900">
                   <a href="#">We partnered with Google</a>
                 </h2>
-                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                <p className="mb-4 font-light text-gray-500">
                   Over the past year, Volosoft has undergone many changes! After
                   months of preparation.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
+                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 hover:no-underline"
                 >
                   Read in 8 minutes
                 </a>
@@ -186,16 +186,16 @@ function Single() {
                     alt="Image 4"
                   />
                 </a>
-                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900">
                   <a href="#">Our first project with React</a>
                 </h2>
-                <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
+                <p className="mb-4 font-light text-gray-500">
                   Over the past year, Volosoft has undergone many changes! After
                   months of preparation.
                 </p>
                 <a
                   href="#"
-                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
+                  className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 hover:no-underline"
                 >
                   Read in 4 minutes
                 </a>

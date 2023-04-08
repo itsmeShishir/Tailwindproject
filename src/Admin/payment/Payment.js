@@ -69,7 +69,7 @@ function Payment() {
                             type="button"
                             data-modal-target="editUserModal"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>
@@ -105,7 +105,7 @@ function Payment() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>
@@ -141,7 +141,7 @@ function Payment() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>
@@ -177,7 +177,7 @@ function Payment() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>
@@ -213,7 +213,7 @@ function Payment() {
                             href="#"
                             type="button"
                             data-modal-show="editUserModal"
-                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            className="font-medium text-blue-600 hover:underline"
                           >
                             More Details
                           </a>

@@ -5,7 +5,7 @@ import Topbar from "../components/topbar";
 function OverView() {
   return (
     <>
-      <main className="relative h-screen overflow-hidden bg-gray-100 dark:bg-gray-800 rounded-2xl">
+      <main className="relative h-screen overflow-hidden bg-gray-100 rounded-2xl">
         <div className="flex items-start justify-between">
           <Sidebar />
           <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
@@ -14,12 +14,12 @@ function OverView() {
               <div className="sm:flex-row">
                 <main className="h-full pb-16 overflow-y-auto">
                   <div className="container px-6 mx-auto grid">
-                    <h4 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+                    <h4 className="mb-4 text-lg font-semibold text-gray-600">
                       Details Overview
                     </h4>
                     <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
-                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-                        <div className="p-3 mr-4 text-orange-500 bg-orange-100 rounded-full dark:text-orange-100 dark:bg-orange-500">
+                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
+                        <div className="p-3 mr-4 text-orange-500 bg-orange-100 rounded-full">
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -29,17 +29,17 @@ function OverView() {
                           </svg>
                         </div>
                         <div>
-                          <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                          <p className="mb-2 text-sm font-medium text-gray-600 ">
                             Total Patient
                           </p>
-                          <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                          <p className="text-lg font-semibold text-gray-700 ">
                             6389
                           </p>
                         </div>
                       </div>
                       {/* Card */}
-                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-                        <div className="p-3 mr-4 text-green-500 bg-green-100 rounded-full dark:text-green-100 dark:bg-green-500">
+                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
+                        <div className="p-3 mr-4 text-green-500 bg-green-100 rounded-full">
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -53,17 +53,17 @@ function OverView() {
                           </svg>
                         </div>
                         <div>
-                          <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                          <p className="mb-2 text-sm font-medium text-gray-600 ">
                             Payment receive
                           </p>
-                          <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                          <p className="text-lg font-semibold text-gray-700 ">
                             $ 46,760.89
                           </p>
                         </div>
                       </div>
                       {/* Card */}
-                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-                        <div className="p-3 mr-4 text-blue-500 bg-blue-100 rounded-full dark:text-blue-100 dark:bg-blue-500">
+                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
+                        <div className="p-3 mr-4 text-blue-500 bg-blue-100 rounded-full">
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -73,17 +73,17 @@ function OverView() {
                           </svg>
                         </div>
                         <div>
-                          <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                          <p className="mb-2 text-sm font-medium text-gray-600 ">
                             today appointment
                           </p>
-                          <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                          <p className="text-lg font-semibold text-gray-700 ">
                             376
                           </p>
                         </div>
                       </div>
                       {/* Card */}
-                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-                        <div className="p-3 mr-4 text-teal-500 bg-teal-100 rounded-full dark:text-teal-100 dark:bg-teal-500">
+                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
+                        <div className="p-3 mr-4 text-teal-500 bg-teal-100 rounded-full">
                           <svg
                             className="w-5 h-5"
                             fill="currentColor"
@@ -97,16 +97,16 @@ function OverView() {
                           </svg>
                         </div>
                         <div>
-                          <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                          <p className="mb-2 text-sm font-medium text-gray-600 ">
                             Pending Appointment
                           </p>
-                          <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                          <p className="text-lg font-semibold text-gray-700 ">
                             35
                           </p>
                         </div>
                       </div>
                     </div>
-                    <h4 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+                    <h4 className="mb-4 text-lg font-semibold text-gray-600">
                       Cards with title
                     </h4>
                   </div>

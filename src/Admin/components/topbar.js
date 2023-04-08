@@ -3,7 +3,7 @@ import React from "react";
 function Topbar() {
   return (
     <div>
-      <header className="z-40 items-center w-full h-16 bg-white shadow-lg dark:bg-gray-700 rounded-2xl">
+      <header className="z-40 items-center w-full h-16 bg-white shadow-lg rounded-2xl">
         <div className="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
           <div className="relative flex items-center w-full pl-1 lg:max-w-68 sm:pr-2 sm:ml-0">
             <div className="container relative left-0 z-50 flex w-3/4 h-auto h-full">
@@ -30,7 +30,7 @@ function Topbar() {
                 </svg>
                 <input
                   type="text"
-                  className="block w-full py-1.5 pl-10 pr-4 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 bg-gray-100 dark:bg-gray-800 text-gray-400 aa-input"
+                  className="block w-full py-1.5 pl-10 pr-4 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 bg-gray-100 text-gray-400 aa-input"
                   placeholder="Search"
                 />
                 <div className="absolute right-0 hidden h-auto px-2 py-1 mr-2 text-xs text-gray-400 border border-gray-300 rounded-2xl md:block">
@@ -43,7 +43,7 @@ function Topbar() {
                 <button
                   id="dropdownUserAvatarButton"
                   data-dropdown-toggle="dropdownAvatar"
-                  className="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                  className="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 "
                   type="button"
                 >
                   <span className="sr-only">Open user menu</span>
@@ -56,39 +56,30 @@ function Topbar() {
                 {/* Dropdown menu */}
                 <div
                   id="dropdownAvatar"
-                  className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                  className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 "
                 >
-                  <div className="px-4 py-3 text-sm text-gray-900 dark:text-white">
+                  <div className="px-4 py-3 text-sm text-gray-900 ">
                     <div>Bonnie Green</div>
                     <div className="font-medium truncate">
                       name@flowbite.com
                     </div>
                   </div>
                   <ul
-                    className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                    className="py-2 text-sm text-gray-700 "
                     aria-labelledby="dropdownUserAvatarButton"
                   >
                     <li>
-                      <a
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
+                      <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                         Dashboard
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
+                      <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                         Settings
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
+                      <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                         Earnings
                       </a>
                     </li>
@@ -96,7 +87,7 @@ function Topbar() {
                   <div className="py-2">
                     <a
                       href="#"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 "
                     >
                       Sign out
                     </a>
