@@ -34,15 +34,15 @@ function App() {
         {/* Doctor Panel */}
         <Route path="overview" element={<OverView />} />
         <Route path="patinet" element={<Patinet />} />
-        <Route path="payment" element={<Payment />} />
-        <Route path="message" element={<Message />} />
-        <Route path="blog" element={<Blog />} />
+        {/* <Route path="payment" element={<Payment />} /> */}
+        {/* <Route path="message" element={<Message />} /> */}
+        {/* <Route path="blog" element={<Blog />} /> */}
         <Route path="appointment" element={<Appointment />} />
-        <Route path="schedule" element={<Schedule />} />
-        <Route path="setting" element={<Setting />} />
+        {/* <Route path="schedule" element={<Schedule />} /> */}
+        {/* <Route path="setting" element={<Setting />} /> */}
         {/* Patinet Panel */}
-        <Route path="dashboard" element={<Dash />} />
-        <Route path="userAppointment" element={<AppointmentUser />} />
+        {/* <Route path="dashboard" element={<Dash />} /> */}
+        {/* <Route path="userAppointment" element={<AppointmentUser />} /> */}
         {/* Page 404 */}
         <Route path="*" element={<Error />} />
       </Routes>
