@@ -9,13 +9,13 @@ import Register from "./pages/auth/Register/register.js";
 import Single from "./pages/SingleBlogs/Single.js";
 import AboutUs from "./pages/Aboutus/Aboutus.js";
 import OverView from "./Admin/Overview/overview.js";
-import Payment from "./Admin/MyPatient/payment.js";
+import Payment from "./Admin/payment/Payment.js";
 import Message from "./Admin/message/Message.js";
 import Blog from "./Admin/Blog/Blog.js";
 import Appointment from "./Admin/Appointment/Appointment.js";
 import Schedule from "./Admin/Schedule/Schedule.js";
 import Setting from "./Admin/Setting/Setting.js";
-import Patinet from "./Admin/MyPatient/payment.js";
+import Patinet from "./Admin/MyPatient/Patinet.js";
 function App() {
   return (
     <Router>
