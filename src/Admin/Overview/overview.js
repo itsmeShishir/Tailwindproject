@@ -38,7 +38,7 @@ function OverView() {
                         </div>
                       </div>
                       {/* Card */}
-                      <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
+                      {/* <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
                         <div className="p-3 mr-4 text-green-500 bg-green-100 rounded-full">
                           <svg
                             className="w-5 h-5"
@@ -60,7 +60,7 @@ function OverView() {
                             $ 46,760.89
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                       {/* Card */}
                       <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
                         <div className="p-3 mr-4 text-blue-500 bg-blue-100 rounded-full">
