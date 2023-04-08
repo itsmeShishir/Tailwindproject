@@ -25,11 +25,11 @@ function App() {
         {/* Frontend panel */}
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
-        <Route path="blogs" element={<Blogs />} />
+        {/* <Route path="blogs" element={<Blogs />} /> */}
         <Route path="contact" element={<Contact />} />
         <Route path="signin" element={<Login />} />
         <Route path="signup" element={<Register />} />
-        <Route path="single" element={<Single />} />
+        {/* <Route path="single" element={<Single />} /> */}
         <Route path="aboutus" element={<AboutUs />} />
         {/* Doctor Panel */}
         <Route path="overview" element={<OverView />} />
