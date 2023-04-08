@@ -15,7 +15,7 @@ function Payment() {
                 {/* Table Start form Here */}
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                   <div className="flex items-center justify-between py-4 bg-white">
-                    <h1 className="">Patinet List</h1>
+                    <h1 className="text-base font-semibold">Payment List</h1>
                   </div>
                   <table className="w-full text-sm text-left text-gray-500">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50">
