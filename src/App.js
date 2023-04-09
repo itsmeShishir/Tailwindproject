@@ -41,8 +41,8 @@ function App() {
         {/* <Route path="schedule" element={<Schedule />} /> */}
         {/* <Route path="setting" element={<Setting />} /> */}
         {/* Patinet Panel */}
-        {/* <Route path="dashboard" element={<Dash />} /> */}
-        {/* <Route path="userAppointment" element={<AppointmentUser />} /> */}
+        <Route path="dashboard" element={<Dash />} />
+        <Route path="userAppointment" element={<AppointmentUser />} />
         {/* Page 404 */}
         <Route path="*" element={<Error />} />
       </Routes>
