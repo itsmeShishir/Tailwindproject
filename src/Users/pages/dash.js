@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/sidebar";
+import { Link } from "react-router-dom";
 
 function Dash() {
   const [showPopup, setShowPopup] = useState(false); // state to control pop-up visibility
@@ -50,78 +51,24 @@ function Dash() {
       {showPopup && (
         <div className="fixed top-0 left-0 right-0 bottom-0 bg-gray-900 bg-opacity-50 z-50 flex justify-center items-center">
           <div className="bg-white rounded-lg p-8 w-1/2">
-            <h2 className="text-2xl font-bold mb-4">Book An Appointment</h2>
+            <h2 className="text-2xl font-bold mb-4">Doctor Name</h2>
             <div className="sm:flex-row">
               <div className=" mb-8 lg:mb-12">
+              <h3 className="font-bold">Doctor Experience: <span className="text-2xl font-bold text-slate-600 font-normal">5years</span></h3>
+              <h3 className="font-bold">Doctor Spef: <span className="text-2xl font-bold text-slate-600 font-normal">heart surgeon</span></h3>
                 {/* Form Start from Here */}
-                <form>
-                  <div className="mb-8">
-                    <label
-                      htmlFor="name"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+               <h3 className="text-xl font-bold mb-4">Doctorn Description</h3>
+               <p className="mb-2">
+               Doctors, also known as physicians, are licensed health professionals who maintain and restore human health through the practice of medicine. They examine patients, review their medical history, diagnose illnesses or injuries, administer treatment, and counsel patients on their health and well-being.
+               </p>
+               <Link
+               to="/userAppointment"
+               
+                      type="submit"
+                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
                     >
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                      placeholder="John Doe"
-                      required
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <label
-                      htmlFor="email"
-                      className="block mb-2 text-sm font-medium text-gray-900"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                      placeholder="john@dope.com"
-                      required
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <label
-                      htmlFor="email"
-                      className="block mb-2 text-sm font-medium text-gray-900"
-                    >
-                      Age
-                    </label>
-                    <input
-                      type="number"
-                      id="age"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                      placeholder="50"
-                      required
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <label
-                      htmlFor="age"
-                      className="block mb-2 text-sm font-medium text-gray-900"
-                    >
-                      Symptoms
-                    </label>
-                    <textarea
-                      type="text"
-                      id="text"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                      placeholder="Explain your symptoms"
-                      required
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-2/3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
-                  >
-                    Submit
-                  </button>
-                </form>
+                      Book an Appointment
+                    </Link>
               </div>
             </div>
             <button
