@@ -12,7 +12,7 @@ function AppointmentUser() {
               <div className="sm:flex-row">
                 <div className="max-w-screen-md text-center mb-8 lg:mb-12">
                   <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
-                    Appointment The Doctor
+                    Appointment The Doctors
                   </h2>
                 </div>
                 <div className="w-1/2 mb-8 lg:mb-12">
