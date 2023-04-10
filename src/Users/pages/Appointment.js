@@ -1,7 +1,10 @@
 import React from "react";
 import Sidebar from "../components/sidebar";
+import { useState } from "react";
 
 function AppointmentUser() {
+  const [date,setdate] = useState();
+  console.log("Date", date);
   return (
     <div>
       <main className="relative h-screen overflow-hidden bg-gray-100 rounded-2xl">
@@ -58,6 +61,21 @@ function AppointmentUser() {
                       <input
                         type="number"
                         id="age"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                        placeholder="50"
+                        required
+                      />
+                    </div>
+                    <div className="mb-6">
+                      <label
+                        htmlFor="email"
+                        className="block mb-2 text-sm font-medium text-gray-900"
+                      >
+                        Appointment Date
+                      </label>
+                      <input
+                        type="date"
+                        onChange={e=>setdate(e.target.value)}
                         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         placeholder="50"
                         required

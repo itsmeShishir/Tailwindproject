@@ -21,7 +21,7 @@ function Dash() {
           <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
             <div className="h-screen pt-2 pb-24 pl-2 pr-2 overflow-auto md:pt-0 md:pr-0 md:pl-0">
               <div className="sm:flex-row">
-                <div className="w-1/3 card card-side bg-base-100 shadow-xl">
+                <div className="w-1/4 card card-side bg-base-100 shadow-xl mb-4">
                   <figure>
                     <img
                       src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -29,8 +29,8 @@ function Dash() {
                     />
                   </figure>
                   <div className="card-body">
-                    <h2 className="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
+                    <h2 className="card-title mt-2 text-2xl font-bold">Doctor Name</h2>
+                    <p className="mt-2 mb-2 font-bold">Doctor Experience</p>
                     <div className="card-actions justify-end">
                       <button
                         type="button"
